@@ -7198,7 +7198,7 @@ definitions:
           CompanyUserInvitationRequests:
             type: array
             items:
-              - $ref: '#/definitions/CompanyUserInvitationRequest'
+              $ref: '#/definitions/CompanyUserInvitationRequest'
   ManagedCompany:
     type: object
     allOf:
@@ -8615,11 +8615,11 @@ definitions:
           Items:
             type: array
             items:
-              - $ref: '#/definitions/FormItem'
+              $ref: '#/definitions/FormItem'
           Sections:
             type: array
             items:
-              - $ref: '#/definitions/FormSection'
+              $ref: '#/definitions/FormSection'
           IsConform:
             type: boolean
           Report:
@@ -8702,7 +8702,7 @@ definitions:
           NoteDocuments:
             type: array
             items:
-              - $ref: '#/definitions/NoteDocument'
+              $ref: '#/definitions/NoteDocument'
             description: This is the list of attachments added to the answer
           NeedAnswer:
             type: boolean
